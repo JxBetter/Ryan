@@ -28,8 +28,8 @@ class Param:
             if isinstance(self.scheam[0], dict):
                 Ryan(self.scheam).validate(data)
             elif isinstance(self.scheam, list):
-                for d in data:
-                    Ryan(self.scheam[0]).validate(d)
+                for index, d in enumerate(data):
+                    Ryan(self.scheam[index]).validate(d)
             return True
 
         return True
