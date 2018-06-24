@@ -1,6 +1,8 @@
 from setuptools import setup, find_packages
 
-
+"""
+setup.py
+"""
 setup(
     name="ryan",
     version="0.0.1",
