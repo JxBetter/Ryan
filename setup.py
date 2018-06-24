@@ -8,6 +8,7 @@ setup(
     url='https://github.com/JxBetter/Ryan',
     license='MIT',
     author='jx',
+    author_email='429803863@qq.com',
     test_suite=None,
     tests_require=[]
 )
